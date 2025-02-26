@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint .",
     "build": "vite build",
-  "start": "serve -s dist -l $PORT"
+    "lint": "eslint .",
+    "preview": "vite preview",
+     "start": "vite preview --port=$PORT --host"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
