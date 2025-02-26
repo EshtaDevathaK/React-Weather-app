@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "start": "vite preview --port=$PORT --host"
+    "start": "node server.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -16,6 +16,7 @@
     "@fontsource/roboto": "^5.1.1",
     "@mui/icons-material": "^6.4.5",
     "@mui/material": "^6.4.5",
+    "express": "^4.21.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
