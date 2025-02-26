@@ -1,0 +1,25 @@
+.SearchBox {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Apply shadow and transition only to the input field and button */
+.SearchBox input, .SearchBox button {
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.SearchBox input:hover, .SearchBox button:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;  /* Add spacing between input and button */
+    margin-top: 10px; /* Adjust spacing */
+    margin-bottom: 15px;
+}
