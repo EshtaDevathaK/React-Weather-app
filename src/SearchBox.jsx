@@ -8,8 +8,8 @@ export default function SearchBox({updateInfo}){
     let [city, setCity] = useState(""); // pass city To get access of city
     let [error, setError] = useState(false);
     
-    const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "33380abeed3051f5eef2276c1a2b6036";
+    const API_URL = import.meta.env.VITE_API_URL;
+    const API_KEY = import.meta.env.VITE_API_KEY;
 
     // It's Just a Function We need to pass city To get access of city
     let getWeatherInfo = async () => {
